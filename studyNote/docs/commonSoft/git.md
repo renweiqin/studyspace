@@ -65,3 +65,16 @@ git diff
 ```
 
 ### 提交本地仓库
+
+
+
+### 添加忽略文件
+
+先在项目路径下添加.gitignore文件。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2018110714531858.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2E3NDg0NDg2NjA=,size_16,color_FFFFFF,t_70)
+二.编辑.gitignore文件，其实就是输入一些相对路径或者通配符来避免文件提交。
+　2.1)首先查看自己的项目目录：
+![项目目录](https://img-blog.csdnimg.cn/20181107150322228.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2E3NDg0NDg2NjA=,size_16,color_FFFFFF,t_70)
+　 2.2)编辑.gitignore文件，建立下面的规则：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181107150202339.png)
+上图利用路径来控制哪些文件夹被忽略。

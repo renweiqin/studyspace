@@ -1,2 +1,22 @@
-site_name: My Study Docs
-theme: Amelia
+site_name: 寻找一片可以落脚的角落
+nav:
+- 角落指引: 'index.md'
+- 左手java:
+    - java基础: 'newcomer\welcome.md'
+    - mysql: 'newcomer\WMS\datebase.md'
+- 右手python:
+    - python基础: 'study\python.md'
+    - python扩展: 'study\java.md'
+- 满脑子test: 'study\MkDocs.md'    
+    - 测试全流程: ''
+    - autotest: ''
+- 抬头linux: ''
+- 低头
+theme:
+    name: "material"
+    logo:
+        icon: "mkdocs"
+    palette:
+        primary: "black"
+        accent: "deep orange"
+    language: "zh"
